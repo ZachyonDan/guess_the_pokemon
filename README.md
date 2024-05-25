@@ -17,7 +17,8 @@ Rust automatically handles build targeting for your operating system when `cargo
 If, for whatever reason, you want to compile to a non-native target, refer to the following commands:
 
 ### Targeting
-Before you can cross-compile, you must first add the appropriate toolchain with the `rustup target add [TOOLCHAIN]` command:
+Before you can cross-compile, you must first add the appropriate toolchain with
+`rustup target add [TOOLCHAIN]`
 
 |Operating System|Toolchain|
 |----------------|------------|
