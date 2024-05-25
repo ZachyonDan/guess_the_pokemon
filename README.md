@@ -32,6 +32,6 @@ Other toolchains can be listed with `rustup target list`
 ### Building
 |Operating System|Bash Command|
 |----------------|------------|
-|Windows|`cargo build --target x86_64-pc-windows-gnu`|
-|Linux|`cargo build --target x86_64-unknown-linux-gnu`|
-|OSX (Mac)|`cargo build --target x86_64-apple-darwin`|
+|Windows|`cargo build --release --target x86_64-pc-windows-gnu`|
+|Linux|`cargo build --release --target x86_64-unknown-linux-gnu`|
+|OSX (Mac)|`cargo build --release --target x86_64-apple-darwin`|
