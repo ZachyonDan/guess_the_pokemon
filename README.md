@@ -12,7 +12,7 @@ Sprites are provided by [PokéSprite](https://msikma.github.io/pokesprite/).
 ![](https://i.imgur.com/6szeNHY.png)
 
 ## Building from source
-Rust should automatically handle compiling the project for your operating system when the `cargo build --release` command is ran.
+Rust should automatically handle compiling the project for your operating system when `cargo build --release` is ran.
 
 If, for whatever reason, you want to compile to a non-native target, refer to the following commands:
 
