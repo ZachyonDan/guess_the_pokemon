@@ -1,0 +1,25 @@
+[package]
+name = "guess_the_pokemon"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+enum_glob_use = "deny"
+pedantic = "deny"
+nursery = "deny"
+
+[profile.release]
+opt-level = 'z' # Optimize for size
+strip = "symbols"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.4", features = ["derive"] }
+inquire = "0.7.5"
+rand = "0.8.5"
+viuer = "0.7.1"
